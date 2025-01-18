@@ -28,9 +28,10 @@ function main() {
   let double;
   let string;
   // Read and save an integer, double, and String to your variables.
-  int = 12;
-  double = 4.0;
-  string = "is the best place to learn and practice coding!";
+  int = parseInt(readLine()); // Read integer
+  double = parseFloat(readLine()); // Read double
+  string = readLine(); // Read string
+
   // Print the sum of both integer variables on a new line.
   console.log(i + int);
   // Print the sum of the double variables on a new line.
